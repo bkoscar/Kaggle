@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.post('/api/predictions')
 def get_prediction():
-    return {'Hello motherfucker'}
+    return {'Hello world'}
 
 
 
